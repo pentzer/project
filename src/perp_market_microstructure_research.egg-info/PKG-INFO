@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: perp-market-microstructure-research
+Version: 0.1.0
+Summary: Market microstructure research and ingestion system
+Requires-Python: >=3.10
