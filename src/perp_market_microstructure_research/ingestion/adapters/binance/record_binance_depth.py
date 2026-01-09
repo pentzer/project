@@ -6,7 +6,7 @@ from typing import Optional
 import orjson
 import websockets
 
-from src.ingestion.writers.rotating_jsonl_writer import (
+from perp_market_microstructure_research.ingestion.writers.rotating_jsonl_writer import (
     WriteItem,
     writer_loop,
 )

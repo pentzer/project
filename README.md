@@ -172,7 +172,7 @@ Zero logic. Zero path hacks. Zero imports from adapters.
 
 These files only do:
 
-from src.pipelines.normalize_l2 import run
+from perp_market_microstructure_research.pipelines.normalize_l2 import run
 run()
 
 

@@ -9,8 +9,8 @@ description = "Market microstructure research and ingestion system"
 requires-python = ">=3.10"
 
 [tool.setuptools]
-package-dir = {"" = "."}
+package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
-where = ["."]
-include = ["src*"]
+where = ["src"]
+include = ["perp_market_microstructure_research*"]

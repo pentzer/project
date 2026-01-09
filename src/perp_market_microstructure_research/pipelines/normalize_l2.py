@@ -5,12 +5,12 @@ from typing import Optional
 
 import orjson
 
-from src.core.schemas.l2_delta import (
+from perp_market_microstructure_research.core.schemas.l2_delta import (
     is_depth_delta,
     normalize_delta,
 )
-from src.validation.audit import Audit
-from src.validation.continuity import continuity_ok
+from perp_market_microstructure_research.validation.audit import Audit
+from perp_market_microstructure_research.validation.continuity import continuity_ok
 
 
 def list_raw_files(raw_dir: Path):

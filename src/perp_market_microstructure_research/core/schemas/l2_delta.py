@@ -1,4 +1,4 @@
-from src.core.fixed_point import normalize_level
+from perp_market_microstructure_research.core.fixed_point import normalize_level
 
 
 def is_depth_delta(raw: dict) -> bool:

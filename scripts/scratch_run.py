@@ -2,7 +2,7 @@
 import asyncio
 from pathlib import Path
 
-from src.ingestion.adapters.binance.record_binance_depth import record_binance_depth
+from perp_market_microstructure_research.ingestion.adapters.binance.record_binance_depth import record_binance_depth
 
 async def main():
     await record_binance_depth(
